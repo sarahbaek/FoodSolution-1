@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FoodClassLib</name>
+    </assembly>
+    <members>
+        <member name="T:FoodClassLib.Food">
+            <summary>
+            This class represents a food item.
+            </summary>
+        </member>
+        <member name="P:FoodClassLib.Food.Id">
+            <summary>
+            Unique identifier for the food item.
+            </summary>
+        </member>
+        <member name="P:FoodClassLib.Food.Name">
+            <summary>
+            Name of the food item.
+            </summary>
+        </member>
+        <member name="P:FoodClassLib.Food.InStock">
+            <summary>
+            Amount of this food item in stock.
+            </summary>
+        </member>
+        <member name="P:FoodClassLib.Food.LowLevel">
+            <summary>
+            Specifies the lowest limit of this item.
+            </summary>
+        </member>
+        <member name="M:FoodClassLib.Food.ToString">
+            <summary>
+            
+            </summary>
+            <returns>Information about this food item as a string.</returns>
+        </member>
+    </members>
+</doc>
